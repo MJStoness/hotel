@@ -1,0 +1,36 @@
+.rooms-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 40px;
+    height: 400px;
+}
+.room-container div {
+    transition-delay: 50ms;
+}
+.room-container div:nth-child(2) {
+    transition-delay: 200ms;
+}
+
+.room-details {
+    border-radius: var(--rounding);
+    background-color: var(--bg2);
+    width: 70%;
+    height: 100%;
+}
+
+.room-banner {
+    border-radius: var(--rounding);
+    height: 100%;
+    width: 100%;
+}
+.room-banner:nth-of-type(1) {
+    background-image: url("../imgs/grandBudapest.webp");
+}

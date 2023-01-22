@@ -1,0 +1,11 @@
+.hidden.left {
+    transform: translateX(-50vw);
+    opacity: 0;
+}
+.hidden.bottom {
+    transform: translateY(50px);
+    opacity: 0;
+}
+.anim {
+    transition: .4s;
+}
